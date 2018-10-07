@@ -17,3 +17,7 @@ C:\Users\Duch003\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.
 C:\Users\Duch003\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.1\SportStore.dll
 C:\Users\Duch003\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.1\SportStore.pdb
 C:\Users\Duch003\source\repos\SportStore\SportStore.Tests\obj\Debug\netcoreapp2.1\SportStore.Tests.csproj.CopyComplete
+C:\Users\Duch003\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Users\Duch003\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Mvc.ViewFeatures.xml
+C:\Users\Duch003\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Razor.dll
+C:\Users\Duch003\source\repos\SportStore\SportStore.Tests\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Razor.xml

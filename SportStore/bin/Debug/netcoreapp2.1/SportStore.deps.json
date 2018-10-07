@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "8d19439ef22c432fe18f0eac697c8789fe30c00a"
+    "signature": "1fef2f847fa7c3752a15eba7f8de66836a8c9850"
   },
   "compilationOptions": {
     "defines": [
@@ -25,6 +25,7 @@
       "SportStore/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.1.0",
+          "Microsoft.AspNetCore.Html.Abstractions": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0"
         },
         "runtime": {
@@ -32,6 +33,20 @@
         },
         "compile": {
           "SportStore.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Html.Abstractions/2.1.1": {
+        "dependencies": {
+          "System.Text.Encodings.Web": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Html.Abstractions.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.18157"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Html.Abstractions.dll": {}
         }
       },
       "Microsoft.NETCore.App/2.1.0": {
@@ -286,7 +301,7 @@
           "Microsoft.AspNetCore.Hosting": "2.1.0",
           "Microsoft.AspNetCore.Hosting.Abstractions": "2.1.0",
           "Microsoft.AspNetCore.Hosting.Server.Abstractions": "2.1.0",
-          "Microsoft.AspNetCore.Html.Abstractions": "2.1.0",
+          "Microsoft.AspNetCore.Html.Abstractions": "2.1.1",
           "Microsoft.AspNetCore.Http": "2.1.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.1.0",
           "Microsoft.AspNetCore.Http.Connections": "1.0.0",
@@ -713,15 +728,6 @@
         },
         "compileOnly": true
       },
-      "Microsoft.AspNetCore.Html.Abstractions/2.1.0": {
-        "dependencies": {
-          "System.Text.Encodings.Web": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Html.Abstractions.dll": {}
-        },
-        "compileOnly": true
-      },
       "Microsoft.AspNetCore.Http/2.1.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.1.0",
@@ -1071,7 +1077,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Antiforgery": "2.1.0",
           "Microsoft.AspNetCore.Diagnostics.Abstractions": "2.1.0",
-          "Microsoft.AspNetCore.Html.Abstractions": "2.1.0",
+          "Microsoft.AspNetCore.Html.Abstractions": "2.1.1",
           "Microsoft.AspNetCore.Mvc.Core": "2.1.0",
           "Microsoft.AspNetCore.Mvc.DataAnnotations": "2.1.0",
           "Microsoft.AspNetCore.Mvc.Formatters.Json": "2.1.0",
@@ -1105,7 +1111,7 @@
       },
       "Microsoft.AspNetCore.Razor/2.1.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Html.Abstractions": "2.1.0"
+          "Microsoft.AspNetCore.Html.Abstractions": "2.1.1"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Razor.dll": {}
@@ -1123,7 +1129,7 @@
       },
       "Microsoft.AspNetCore.Razor.Runtime/2.1.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Html.Abstractions": "2.1.0",
+          "Microsoft.AspNetCore.Html.Abstractions": "2.1.1",
           "Microsoft.AspNetCore.Razor": "2.1.0"
         },
         "compile": {
@@ -3156,6 +3162,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microsoft.AspNetCore.Html.Abstractions/2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tPZG0aA3V8tljooIgKhAiVxu7ZnAnL7QPzz3uxQgs4v7vwwCZTigzh2PIL4QRtezlGFk1jn7PbOtxi+FsmEe0g==",
+      "path": "microsoft.aspnetcore.html.abstractions/2.1.1",
+      "hashPath": "microsoft.aspnetcore.html.abstractions.2.1.1.nupkg.sha512"
+    },
     "Microsoft.NETCore.App/2.1.0": {
       "type": "package",
       "serviceable": true,
@@ -3435,13 +3448,6 @@
       "sha512": "sha512-NqIJ1cwlymPujIqeMXUBYGxsmD3hrSW+ulM2z6gdSWvrnHOfrsc67u3PYEfCCN2bdZOad6xG1aVxXZRVZJ+BxQ==",
       "path": "microsoft.aspnetcore.hosting.server.abstractions/2.1.0",
       "hashPath": "microsoft.aspnetcore.hosting.server.abstractions.2.1.0.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Html.Abstractions/2.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-lrbqP/lek5dlTVsPQ4tFhcZFsYzEOEQvuxgTK/AH/fEkwRddUbpB/pLqYv4M2apQpKe6vIuvP9lSbVGApa5QHQ==",
-      "path": "microsoft.aspnetcore.html.abstractions/2.1.0",
-      "hashPath": "microsoft.aspnetcore.html.abstractions.2.1.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Http/2.1.0": {
       "type": "package",

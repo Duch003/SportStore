@@ -616,7 +616,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Html.Abstractions/2.1.0": {
+      "Microsoft.AspNetCore.Html.Abstractions/2.1.1": {
         "type": "package",
         "dependencies": {
           "System.Text.Encodings.Web": "4.5.0"
@@ -4739,15 +4739,15 @@
         "microsoft.aspnetcore.hosting.server.abstractions.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Html.Abstractions/2.1.0": {
-      "sha512": "lrbqP/lek5dlTVsPQ4tFhcZFsYzEOEQvuxgTK/AH/fEkwRddUbpB/pLqYv4M2apQpKe6vIuvP9lSbVGApa5QHQ==",
+    "Microsoft.AspNetCore.Html.Abstractions/2.1.1": {
+      "sha512": "tPZG0aA3V8tljooIgKhAiVxu7ZnAnL7QPzz3uxQgs4v7vwwCZTigzh2PIL4QRtezlGFk1jn7PbOtxi+FsmEe0g==",
       "type": "package",
-      "path": "microsoft.aspnetcore.html.abstractions/2.1.0",
+      "path": "microsoft.aspnetcore.html.abstractions/2.1.1",
       "files": [
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Html.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Html.Abstractions.xml",
-        "microsoft.aspnetcore.html.abstractions.2.1.0.nupkg.sha512",
+        "microsoft.aspnetcore.html.abstractions.2.1.1.nupkg.sha512",
         "microsoft.aspnetcore.html.abstractions.nuspec"
       ]
     },
@@ -11502,6 +11502,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.0",
+      "Microsoft.AspNetCore.Html.Abstractions >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -11552,6 +11553,10 @@
             "version": "[2.1.0, )",
             "autoReferenced": true
           },
+          "Microsoft.AspNetCore.Html.Abstractions": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "[2.1.0, )",
@@ -11565,5 +11570,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: Microsoft.AspNetCore.App 2.1.0 requires Microsoft.AspNetCore.Html.Abstractions (= 2.1.0) but version Microsoft.AspNetCore.Html.Abstractions 2.1.1 was resolved.",
+      "libraryId": "Microsoft.AspNetCore.Html.Abstractions",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
 }
